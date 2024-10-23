@@ -1,7 +1,7 @@
 public class MiniChatBot {
-    
+
     public String responder(String resposta){
-        if (resposta.equalsIgnoreCase("Oi")){
+        if (resposta.equalsIgnoreCase("Oi") || resposta.equalsIgnoreCase("Ola")){
             return "Olá! Como posso ajudar?";
         }
         if (resposta.equalsIgnoreCase("Como você está?")){
@@ -13,9 +13,9 @@ public class MiniChatBot {
         if (resposta.equalsIgnoreCase("sair")){
             return "Tchau! Até a próxima.";
         }
-        
-        return "Não entendi"; 
+
+        return "Não entendi";
     }
-    
+
 
 }
